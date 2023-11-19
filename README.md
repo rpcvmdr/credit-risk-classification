@@ -24,22 +24,24 @@ The "loan_status" field has two possible categories: 0 = healthy status; 1 = hig
 
     d. The revised DataFrame, now with 7 remaining fields - is assigned to the variable "X"
 
-    e. The dataset is divided into a Training Set (75% of the original dataset) and a Testing Set (25% of the original dataset) using the train_test_split module. 
+    e. The dataset is divided into a Training Set (75% of the original dataset) and a Testing Set (25% of the original dataset) 
+    using the train_test_split module. 
 
     f. The LogisticsRegression module is imported, instantiated, fitted to the training data set
 and saved with a name (lr_model)
 
     g. The LR model is used to make a prediction of the test data and saved with the name: test_predictions
 
-    h. An accuracy score, confusion matrix (test_matrix) and a classification report (testing_report) are all generated to evaluate the model using the testing data.
+    h. An accuracy score, confusion matrix (test_matrix) and a classification report (testing_report) are all 
+    generated to evaluate the model using the testing data.
 
 [ANALYSIS RESULTS]
 
 [TESTING DATA USING LOGISTICS REGRESSION MODEL] 
 
-BALANCED ACCURACY - .944
-PRECISION - 99.6% (0 - Healthy Loans); 87.4% (1 - At Risk Loans)
-RECALL - 99.5% (0 - Healthy Loans); 89.2% (1 - At Risk Loans)
+  1. BALANCED ACCURACY - .944
+  2. PRECISION - 99.6% (0 - Healthy Loans); 87.4% (1 - At Risk Loans)
+  3. RECALL - 99.5% (0 - Healthy Loans); 89.2% (1 - At Risk Loans)
 
 [SUMMARY]
 
