@@ -1,7 +1,7 @@
 # credit-risk-classification
 Module 20 Challenge HW Assignment
 
-CREATED BY: Michael Roberts
+CREATED BY: Michael Roberts, Nov. 19, 2023
 
 CREDIT RISK ANALYSIS REPORT COMPONENT
 
@@ -17,23 +17,23 @@ The "loan_status" field has two possible categories: 0 = healthy status; 1 = hig
 
 [STAGES OF THE MACHINE LEARNING PROCESS/TRAINING PROCEDURE]
 
-    a. The CSV file "lending_data.csv" is read into a Pandas Dataframe and reviewed
+1. The CSV file "lending_data.csv" is read into a Pandas Dataframe and reviewed
 
-    b. The loan_status field is separated from the full dataset and assigned to the variable "y".
+2. The loan_status field is separated from the full dataset and assigned to the variable "y".
 
-    c. The loan_status field is removed from the original DataFrame. 
+3. The loan_status field is removed from the original DataFrame. 
 
-    d. The revised DataFrame, now with 7 remaining fields - is assigned to the variable "X"
+4. The revised DataFrame, now with 7 remaining fields - is assigned to the variable "X"
 
-    e. The dataset is divided into a Training Set (75% of the original dataset) and a Testing Set (25% of the original dataset) 
+5. The dataset is divided into a Training Set (75% of the original dataset) and a Testing Set (25% of the original dataset) 
     using the train_test_split module. 
 
-    f. The LogisticsRegression module is imported, instantiated, fitted to the training data set
+6. The LogisticsRegression module is imported, instantiated, fitted to the training data set
 and saved with a name (lr_model)
 
-    g. The LR model is used to make a prediction of the test data and saved with the name: test_predictions
+7. The LR model is used to make a prediction of the test data and saved with the name: test_predictions
 
-    h. An accuracy score, confusion matrix (test_matrix) and a classification report (testing_report) are all 
+8. An accuracy score, confusion matrix (test_matrix) and a classification report (testing_report) are all 
     generated to evaluate the model using the testing data.
 
 [ANALYSIS RESULTS]
