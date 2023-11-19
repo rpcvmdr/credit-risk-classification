@@ -3,6 +3,13 @@ Module 20 Challenge HW Assignment
 
 CREATED BY: Michael Roberts, Nov. 19, 2023
 
+==========================
+This repository contains the folder Credit_Risk and this README.md file. The folder includes two files: 
+
+1. lending_data.csv - The dataset used with this assignment 
+2. credit_risk_classification.ipynb - The Jupyter file with the code to utilize a Logistic Regression Model to train a dataset to predict and identify records that represent healthy or at risk loans. 
+
+
 CREDIT RISK ANALYSIS REPORT COMPONENT
 
 [ANALYSIS OVERVIEW]
