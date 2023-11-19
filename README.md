@@ -1,6 +1,7 @@
 # credit-risk-classification
 Module 20 Challenge HW Assignment
-  Created by Michael Roberts
+
+Created by Michael Roberts
 
 CREDIT RISK ANALYSIS REPORT COMPONENT
 
