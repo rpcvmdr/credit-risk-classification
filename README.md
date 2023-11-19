@@ -1,11 +1,11 @@
 # credit-risk-classification
 Module 20 Challenge HW Assignment
 
-Created by Michael Roberts
+CREATED BY: Michael Roberts
 
 CREDIT RISK ANALYSIS REPORT COMPONENT
 
-ANALYSIS OVERVIEW
+[ANALYSIS OVERVIEW]
 
 The purpose of this analysis is to describe the results of training and evaluating a Logistic Regression Model to determine the model's accuracy in identifying/predicting healthy and high risk loans from a company's dataset of loan activities. 
 
@@ -46,25 +46,25 @@ and saved with a name (lr_model)
 
 [SUMMARY]
 
-1. The logistic regreesion model was extremely accurate in predicting 99.6% - Almost Perfect High Precision Rate (18,679) of the 18,746 loans identified in 
-    the dataset as healthy loans were actually healthy loans.
+1. The logistic regreesion model was extremely accurate in predicting 99.6% (18,679) - Almost Perfect High Precision Rate - of the 18,746 loans identified in 
+    the dataset as healthy loans, were actually healthy loans.
 
-2. The logistic regression model was also extremely accurate in predicting 99.5% - Almost Perfect High Recall Rate (18,679) - of the total amount of actual total healthy loans (18,759) were healthy loans.
+2. The logistic regression model was also extremely accurate in predicting 99.5% (18,679) - Almost Perfect High Recall Rate - of the total amount of actual total healthy loans (18,759), were healthy loans.
 
 3.  The logistic regression model was not as accurate, however, in terms of predicting high risk loans.
 
-4.  The logistic regreesion model was able to correctly predict 87.4% - Fairly High Precision Rate (558) of the 638 loans identified in 
+4.  The logistic regreesion model was able to correctly predict 87.4% (558) - Precision Rate - of the 638 loans identified in 
     the dataset as high risk loans were actually high risk loans. This means that 12.6% of the loans predicted by the model as high risk were not high risk loans.
 
-5. The logistic regression model was was able to correctly predict 89% (558) - Fairly High Recall Rate - of the total amount of actual high risk loans (625) were 
+5. The logistic regression model was was able to correctly predict 89% (558) - Recall Rate - of the total amount of actual high risk loans (625) were 
 actually high risk loans. This means that the logistic regression model incorrectly predicted (missed/wrongly classified) 11% of true high risk loans to be healhy loans. 
 
 [RECOMMENDATIONS]
 
-1. The Logistics Regression Model is highly recommended for use in accurately predicting healthy loans at an accuracy rate above 99.5%.
+1. The Logistics Regression Model is highly recommended for use in accurately predicting healthy loans at accuracy, precision and recall rates all above 99.5%.
 
 2. However, the accuracy rates for predicting at risk loans is between 10 and 12% lower, in terms of recall and precision respectively than predicting healthly loans. The Logistics Regresssion Model should therefore not be used as the sole method of accurately predicting at risk loans.
 
 3. 96.77% of the original dataset represents healthly loans, or 3.2% represents at risk loans.
 
-4. However, relying on a model with 10-12%+ inaccuracies in predicting at risk loans potentially could lead to substantial lost revenue over time.  
+4. However, relying on a model with 10-12% inaccuracies in predicting at risk loans potentially could lead to substantial lost revenue for the organization over time.  
